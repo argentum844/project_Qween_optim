@@ -153,7 +153,7 @@ void Solve3(std::vector<std::vector<bool>>& board, std::set<int>& not_visited,
 }
 
 // Функция для вывода решений.
-void Output(std::vector<std::vector<bool>>& board, std::vector<std::string>& lines, bool last) {
+/*void Output(std::vector<std::vector<bool>>& board, std::vector<std::string>& lines, bool last) {
     // Вывод решения в консоль. Поставить тут if (0) если не нужно выводить доски в консоль.
     if (0) {
         if (!last) {
@@ -177,7 +177,7 @@ void Output(std::vector<std::vector<bool>>& board, std::vector<std::string>& lin
             lines.resize(board.size());
         }
     }
-}
+}*/
 
 int main() {
     int start = clock();
